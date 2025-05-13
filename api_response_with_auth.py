@@ -19,7 +19,7 @@ CORS(app, resources={
     r"/verify_recaptcha_": {"origins": ALLOWED_ORIGINS},
     })
 
-reCaptchaSecretKey = "6LeqFzYrAAAAADLSlTBrINZTcW1zpyZ-C3MJ5eBt"
+reCaptchaSecretKey = "6LctjDcrAAAAAHuHZlB1Tjij9CDjkPMtVxeGXin1"
 
 def verify_recaptcha_funct(token):
     url = "https://www.google.com/recaptcha/api/siteverify"
